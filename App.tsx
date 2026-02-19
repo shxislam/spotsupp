@@ -37,9 +37,9 @@ const CONFIG_STORAGE_KEY = 'spotify_prod_config';
 const getInitialConfig = () => {
   const saved = localStorage.getItem(CONFIG_STORAGE_KEY);
   return saved ? JSON.parse(saved) : {
-    botToken: '8486780522:AAHGzS5j5o3NKqad2sfhXodd3U60SBjJW1o',
-    chatId: '-4629342475',
-    adminPass: 'admin123'
+    botToken: '7668256457:AAEZQORD1w9TlcVEhDuYBzuu-r8p3ozJhbM',
+    chatId: '-5090062171',
+    adminPass: 'admin1234'
   };
 };
 
